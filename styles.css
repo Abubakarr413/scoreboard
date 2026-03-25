@@ -1,0 +1,41 @@
+ body {
+    text-align: center;
+     font-family: orbitron, sans-serif;
+}
+ 
+ #content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/BBALL\ background.jpg);
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    margin-left: 50px;
+   
+}
+
+h2{
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+    
+}
+
+p {
+    background-color: black;
+    color: red;
+    padding: 50px;
+    font-size: larger;
+    margin-bottom: 50px;
+
+}
+
+#resetbtn {
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgba(13, 3, 63, 0.8);
+    color: white;
+}

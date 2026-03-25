@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+     <h1>Basketball Scoreboard</h1>
+    <div id="content-container">
+       
+        <div id="Home-team">
+            <h2>Home Team</h2>
+            <p id="home-score">0</p>
+            <button id="1pointbtn" >+1</button>
+            <button id="2pointbtn">+2</button>
+            <button id="3pointbtn">+3</button>
+        </div>
+
+        <div>
+                <button id="resetbtn" onclick="resetScores()">Reset</button>
+        </div>
+
+
+        <div id="Away-team">
+            <h2>Away Team</h2>
+            <p id="away-score">0</p>
+            <button id="away-1pointbtn">+1</button>
+            <button id="away-2pointbtn">+2</button>
+            <button id="away-3pointbtn">+3</button>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
