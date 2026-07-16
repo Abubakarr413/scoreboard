@@ -123,7 +123,7 @@ const nextQuarterBtn = document.getElementById("next-quarter-btn");
 
 //try to figure out why quarter does not display 2 but jumps to 3 when next quarter button is clicked
 function nextQuarter() {
-    if (quarter <= 3) {
+    if (quarter < 5) { // Assuming a maximum of 4 quarters  
         quarter+=1  ;
         quarterElement.textContent = quarter;
         clearInterval(timerInterval);
