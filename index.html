@@ -14,7 +14,7 @@
     <div id="content-container">
        
         <div id="Home-team">
-            <h2>HOME</h2>
+            <h2>Home Team</h2>
             <p id="home-score">0</p>
             <button id="1pointbtn" >+1</button>
             <button id="2pointbtn">+2</button>
@@ -23,19 +23,34 @@
 
         <div>
                 <button id="resetbtn" onclick="resetScores()">Reset</button>
+                <h3>Quarter</h3>
+                <p id="quarter">1</p>
+                <button id="next-quarter-btn" onclick="nextQuarter()">Next Quarter</button> 
+                
         </div>
 
 
         <div id="Away-team">
-            <h2>AWAY</h2>
+            <h2>Away Team</h2>
             <p id="away-score">0</p>
             <button id="away-1pointbtn">+1</button>
             <button id="away-2pointbtn">+2</button>
             <button id="away-3pointbtn">+3</button>
         </div>
 
+        <div id="timer-container">
+            <h2>Timer</h2>
+            <p id="game-timer"></p>
+            <button id="start-btn">Start</button>
+            <button id="stop-btn">Pause</button>
+            <button id="reset-btn">Reset Timer</button>
+        </div>
+
         
     </div>
+    
+   
+ 
 
     <script src="script.js"></script>
     
