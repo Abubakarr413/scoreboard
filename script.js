@@ -43,11 +43,17 @@ awayThreePointBtn.addEventListener("click", () => {
 });
 
 
-function resetScores() {
+function resetGame() {
     homeScore = 0;
     awayScore = 0;
     homeScoreElement.textContent = homeScore;
     awayScoreElement.textContent = awayScore;
+    quarter = 1; // Reset quarter to 1
+    quarterElement.textContent = quarter; // Update the quarter display
+    clearInterval(timerInterval);
+    timerInterval = null;
+    timeRemaining = QUARTER_TIME;
+    updateClockDisplay(); // Update the clock display 
 }
 
 // Timer functionality
